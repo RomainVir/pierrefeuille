@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="score">
+      <p>You</p>
+      <p>Computer</p>
+      <p id="score-joueur">0</p>
+      <p id="score-ordinateur">0</p>
+      <div id="reset">Start a new game</div>
+    </div>
+    <div class="action">
+      <p id="message">You play !</p>
+      <div id="next">Next round</div>
+    </div>
+    <div class="jeu">
+      <div class="choix">
+        <div class="button btn-joueur"  id="pierre">
+          <img src="/images/rock1.png" width="40px" alt="pierre" />
+          <p>Rock</p>
+        </div>
+        <div class="button btn-joueur" id="feuille">
+          <img src="/images/feuille.png"width="40px" alt="feuille" />
+          <p>Paper</p>
+        </div>
+        <div class="button btn-joueur" id="ciseaux">
+          <img src="/images/scissors.png" width="40px"alt="ciseaux" />
+          <p>Scissors</p>
+        </div>
+      </div>
+
+      <div class="choix">
+        <div class="button btn-ordi" id="opierre">
+            <img src="/images/rock1.png" width="40px" alt="pierre" />
+          <p>Rock</p>
+        </div>
+        <div class="button btn-ordi" id="ofeuille">
+            <img src="/images/feuille.png"width="40px" alt="feuille" />
+          <p>Paper</p>
+        </div>
+        <div class="button btn-ordi" id="ociseaux">
+          <img src="/images/scissors.png" width="40px"alt="ciseaux" />
+          <p>Scissors</p>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
